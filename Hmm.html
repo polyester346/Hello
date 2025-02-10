@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Good afternoon love :)))</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #f9f9f9;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 2.5em;
+      color: #e74c3c;
+    }
+    p {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+    .heart {
+      color: #e74c3c;
+      font-size: 3em;
+      animation: heartbeat 1.5s infinite;
+    }
+    @keyframes heartbeat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
+    button {
+      background-color: #e74c3c;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #c0392b;
+    }
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Good afternoon love :)))</h1>
+    <p>Pira pala ka adlaw na kumadi ka tac namimiss ko na ikaw. Since nagpipinabati ka man sa Tiktok...</p>
+    <p>Will you be my Valentine??</p>
+    <div class="heart">❤️</div>
+    <button onclick="showResponse()">Click to Answer</button>
+    <div id="response" class="hidden">
+      <p>Yeyyyy, matik ako imo valentine. I love youuu so much😚😚</p>
+    </div>
+  </div>
+
+  <script>
+    function showResponse() {
+      document.getElementById('response').classList.remove('hidden');
+      document.querySelector('button').classList.add('hidden');
+    }
+  </script>
+</body>
+</html><ALOASK-SEPARATE-EDITORS><ALOASK-SEPARATE-EDITORS>
